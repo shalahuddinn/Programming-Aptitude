@@ -1,7 +1,7 @@
-from collections import Counter
+# Modification From https://github.com/jojoarianto/online-test-1/blob/master/q5.go
 
 import sys
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(10000) #Sometimes we need more limit on recursion
 
 
 def isConflicted(army, x_location, y_location, grid, flag):
